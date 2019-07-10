@@ -1,0 +1,129 @@
+/** FONTS **/
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  height: 4em;
+  border-bottom: 1px solid darkgray;
+}
+
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  width: 50%;
+  padding-left: 1.5em;
+}
+
+header img {
+  height: 32px;
+  width: auto;
+}
+
+header .logo h1 {
+  font-size: 1.5em;
+  padding-left: 5px;
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #184631;
+}
+
+header .logo h2 {
+  font-size: 1.49em;
+  padding-left: 2px;
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  color: darkgray;
+}
+
+header .navbar {
+  display: flex;
+  width: 50%;
+  color: black;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1em;
+}
+
+header .navbar a {
+  color: #184631;
+  padding: .1em .5em;
+  font-family: 'Titillium Web';
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+header .navbar a:hover {
+  background-color: #E4E4E4;
+  box-shadow: 2px 2px 4px 0 darkgray;
+  transition: background-color 500ms ease-in-out 50ms,
+    box-shadow 500ms ease-in-out 50ms;
+}
+
+/** Banner Section of Page **/
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #184631;
+  padding-top: 64px;
+}
+
+.banner img {
+  padding: 24px 32px;
+  width: 60%;
+  height: auto;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  margin-right: 2em;
+  width: 25%;
+}
+
+.banner-content h1 {
+  font-size: 2em;
+  padding: 15px;
+  color: white;
+}
+
+.banner-content h2 {
+  font-size: 1.5em;
+  padding: 15px;
+  color: white;
+}
+
+.banner-content span {
+  background-color: #38755A;
+  text-decoration: none;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  width: 100%;
+}
